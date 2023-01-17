@@ -3,6 +3,10 @@
 
 
 int main() {
+	/*int i;
+	for(i=0;i<10;i++){
+		printf("%d\n",i);
+	}*/
 	char c='A';
 	printf("%d\n",c);
 	printf("%c\n",c); 
@@ -18,9 +22,16 @@ int main() {
     printf("%-9d %-9d %-9d %-9d\n", c1, c2, c3, c4);
     printf("%-9d %-9d %-9d %-9d\n", d1, d2, d3, d4);
     
-    char input[]="";
+    char input[30];
     scanf("%s",&input);
-    printf("%s",input);
-    printf("%d",&input);
+    printf("%s\n",input);
+    printf("%p\n",input);
+    
+    
+    int a,b=0;
+    scanf("%d is bigger than %d", &a, &b);
+    printf("a-b=%d\n", a-b);
+    
+     
 	return 0;
 }

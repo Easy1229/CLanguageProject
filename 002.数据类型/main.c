@@ -5,12 +5,12 @@ int main() {
 	//int a;
 	unsigned a=-1;
 	printf("%d\n",a);
-	printf("%d\n",sizeof(int));
-	printf("%d\n",sizeof(short));
-	printf("%d\n",sizeof (char));
-	printf("%d\n",sizeof(float));
-	printf("%d\n",sizeof(double));
-	printf("%d\n",sizeof(long));
-	printf("%d\n",sizeof(long long));
+	printf("int=%d\n",sizeof(int));
+	printf("short=%d\n",sizeof(short));
+	printf("char=%d\n",sizeof (char));
+	printf("float=%d\n",sizeof(float));
+	printf("double=%d\n",sizeof(double));
+	printf("long=%d\n",sizeof(long));
+	printf("long long=%d\n",sizeof(long long));
 	return 0;
 }
