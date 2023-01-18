@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <Windows.h>
 
 int main() {
-	/*int i;
-	for(i=0;i<10;i++){
-		printf("%d\n",i);
-	}*/
+	
 	char c='A';
 	printf("%d\n",c);
 	printf("%c\n",c); 
@@ -32,6 +29,6 @@ int main() {
     scanf("%d is bigger than %d", &a, &b);
     printf("a-b=%d\n", a-b);
     
-     
+	
 	return 0;
 }
